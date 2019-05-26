@@ -1,0 +1,151 @@
+<html>
+  <head>
+    <title>CSS Syntax</title>
+
+    <link rel="stylesheet" type="text/css" href="side-style.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div id="hdr_nav">
+      <a href="../home.html"><b>DevOnSite</b></a>
+      &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+      &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+      &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+      &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+      &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+      &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+      &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+      &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+      &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+      &nbsp
+      <a href="curriculum.html">Curriculum</a>
+      <a href="form.html">Forum</a>
+      <a href="form.html">News</a>
+      <a href="form.html">Sign in</a>
+    </div>
+	<div style="width:20%;height:100%;float:left;">
+		<ul>
+			<li><a href="css3.html">CSS Introduction</a></li>
+			<li><a href="csssyntax.html">CSS Syntax</a></li>
+			<li><a href="">CSS How to</a></li>
+			<li><a href="">CSS Colors</a></li>
+			<li><a href="">CSS Background</a></li>
+			<li><a href="">CSS Borders</a></li>
+			<li><a href="">CSS Margin</a></li>
+			<li><a href="">CSS Padding</a></li>
+			<li><a href="">CSS Texts</a></li>
+			<li><a href="">CSS Icon</a></li>
+			<li><a href="" css_home.html>CSS Font</a></li>
+			<li><a href="" css_home.html>CSS Link</a></li>
+			<li><a href="" css_home.html>CSS Table</a></li>
+			<li><a href="" css_home.html>CSS Display</a></li>
+			<li><a href="" css_home.html>CSS Position</a></li>
+			<li><a href="" css_home.html>CSS Overflow</a></li>
+			<li><a href="" css_home.html>CSS Opacity</a></li>
+			<li><a href="" css_home.html>CSS Pagination</a></li>
+			<li><a href="" css_home.html>CSS Variables</a></li>
+			<li><a href="" css_home.html>CSS Animations</a></li>
+			<li><a href="" css_home.html>CSS Buttons</a></li>
+			<li><a href="" css_home.html>CSS Tooltips</a></li>
+		</ul>
+	</div>
+	<div style="width:80%;float:right;height:100%">
+	 <h1>CSS Syntax</h1>
+	 <p>
+	 The selector points to the HTML element you want to style.<br>
+
+The declaration block contains one or more declarations separated by semicolons.
+<br>
+Each declaration includes a CSS property name and a value, separated by a colon.
+<br>
+A CSS declaration always ends with a semicolon, and declaration blocks are surrounded by curly braces.
+<br>
+In the following example all <p> elements will be center-aligned, with a red text color:<br><br><br>
+	<p><h2>What is CSS?<br></h2>
+	CSS stands for Cascading Style Sheets<br>
+CSS describes how HTML elements are to be displayed on screen, paper, or in other media<br>
+CSS saves a lot of work. It can control the layout of multiple web pages all at once<br>
+External stylesheets are stored in CSS files<br><br><br>
+	</p>
+	<p><h2>Why Use CSS?</h2>
+	CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes. 
+	</p>
+
+	</p>
+     <div class="jumbotron">
+		<h3 class="display-4">Example</h3>
+			<p class="lead">
+			p {<br>
+  color: red;<br>
+  text-align: center;<br>
+}
+<br>			
+			</p>
+</div>
+			<p><h2>CSS Selectors</h2>
+			
+			CSS selectors are used to "find" (or select) HTML elements based on their element name, id, class, attribute, and more.	
+			</p>
+			<p><h2>The element Selectors</h2>
+			The element selector selects elements based on the element name.
+<br>
+    You can select all elements on a page like this (in this case, all elements will be center-aligned, with a red text color):
+			<br>
+			</p>
+			
+			 <div class="jumbotron">
+		<h3 class="display-4">Example</h3>
+			<p class="lead">
+			p {<br>
+  text-align: center;<br>
+  color: red;<br>
+}
+<br>			
+			</p>
+</div>
+	<p>
+<h2>	The id Selector</h2>
+<br>The id selector uses the id attribute of an HTML element to select a specific element.
+
+The id of an element should be unique within a page, so the id selector is used to select one unique element!<br>
+
+To select an element with a specific id, write a hash (#) character, followed by the id of the element.<br>
+
+The style rule below will be applied to the HTML element with id="para1":<br>
+	</p>
+	 <div class="jumbotron">
+		<h3 class="display-4">Example</h3>
+			<p class="lead">
+			<br>#para1 {<br>
+  text-align: center;<br>
+  color: red;<br>
+}
+<br>			
+			</p>
+</div>
+
+<p>
+<h2>Grouping Selectors</h2><br>
+ <div class="jumbotron">
+		<h3 class="display-4">Example</h3>
+		<br>	h1 {
+  <br>text-align: center;
+  <br>color: red;
+}
+<br>
+h2 {<br>
+  text-align: center;
+  <br>color: red;
+}<br>
+<br>
+p {<br>
+  text-align: center;<br>
+  color: red;<br>
+}<br>
+<br>			
+			</p>
+</div>
+</p>
+	</div>
+  </body>
+</html>
